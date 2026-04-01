@@ -1,0 +1,24 @@
+# Secrets
+APIKey.txt
+
+# Large caches
+esm_cache/
+results/
+
+# Data files (course-provided)
+Hackathon_data/train.csv
+Hackathon_data/test.csv
+Hackathon_data/.DS_Store
+
+# Course docs
+MLB S26 Hackathon Docs.pdf
+
+# Archives
+*.zip
+
+# Docs
+README.md
+
+# Python
+__pycache__/
+*.pyc
