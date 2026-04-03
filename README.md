@@ -1,4 +1,4 @@
-# MLB S26 Hackathon — Protein Fitness Prediction (Group 2)
+# MLB S26 Hackathon (Group 2)
 
 Zero-shot protein fitness prediction using ESM-2 log-likelihood ratios (LLR), ESM-IF inverse-folding scores, and Ridge calibration on a single round of queried labels.
 
