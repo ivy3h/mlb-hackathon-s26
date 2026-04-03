@@ -22,3 +22,4 @@ README.md
 # Python
 __pycache__/
 *.pyc
+predictions.csv
