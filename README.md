@@ -1,4 +1,4 @@
-# Protein Fitness Prediction — MLB S26 Hackathon (Group 2)
+# MLB S26 Hackathon (Group 2)
 
 ## Requirements
 
