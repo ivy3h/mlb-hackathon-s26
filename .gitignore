@@ -1,14 +1,15 @@
 # Secrets
 APIKey.txt
 
-# Large caches
-esm_cache/
-results/
+# Large embeddings (not needed for reproduce_best.sh)
+esm_cache/*_embeddings.npy
+esm_cache/homologs*.fasta
+esm_cache/alphafold_wt.pdb
 
-# Data files (course-provided)
-Hackathon_data/train.csv
-Hackathon_data/test.csv
-Hackathon_data/.DS_Store
+# Output predictions
+predictions_*.csv
+predictions.csv
+results/
 
 # Course docs
 MLB S26 Hackathon Docs.pdf
@@ -16,10 +17,7 @@ MLB S26 Hackathon Docs.pdf
 # Archives
 *.zip
 
-# Docs
-README.md
-
 # Python
 __pycache__/
 *.pyc
-predictions.csv
+.DS_Store

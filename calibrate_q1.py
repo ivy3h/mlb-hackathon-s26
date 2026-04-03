@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
@@ -101,6 +102,7 @@ def main():
     print(f"Train rho cal : {spearmanr(train_df['DMS_score'].values, train_cal).statistic:.4f}")
 
     # Blends with baseline to reduce overfit
+    os.makedirs("results/kaggle", exist_ok=True)
     weights = [0.1, 0.2, 0.3]
     for w in weights:
         train_blend = (1 - w) * train_base + w * train_cal
