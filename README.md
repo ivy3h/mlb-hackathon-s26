@@ -6,17 +6,11 @@ Zero-shot protein fitness prediction using ESM-2 log-likelihood ratios (LLR), ES
 
 ## Quick Start (Colab)
 
-The fastest way to reproduce our best result is the self-contained Colab notebook
-[`notebook.ipynb`](notebook.ipynb).
-
 1. Open https://colab.research.google.com/github/ivy3h/mlb-hackathon-s26/blob/main/notebook.ipynb
    (or upload `notebook.ipynb` directly to Colab).
 2. Runtime → Run all.
-3. Sections 1–3 install dependencies, clone this repo (which already includes all
-   `Hackathon_data/` CSVs and the `esm_cache/` `.npy` features), and reproduce the
-   best leaderboard submission. No GPU required for the best-result reproduction.
-4. The submission file `predictions_q1cal_w20.csv` (Spearman ρ ≈ 0.41266) is
-   written to the working directory at the end of Section 3.
+3. The submission file `predictions_q1cal_w30.csv` (Spearman ρ ≈ 0.41266) is
+   written to the working directory.
 
 ## Method Overview
 
